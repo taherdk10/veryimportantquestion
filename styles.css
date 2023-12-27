@@ -46,3 +46,19 @@ button {
   background-color: #ff5555;
   color: white;
 }
+.btnindex {
+  display: inline-block;
+  width: 80%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #lightpink;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btnindex:hover {
+  background-color: #ff8888;
+  transform: scale(1.1);
+}
